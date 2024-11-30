@@ -601,3 +601,6 @@ footer p {
     fill: #f4f4fd;
 }
 
+footer div p {
+    margin-bottom: 16px;
+}
