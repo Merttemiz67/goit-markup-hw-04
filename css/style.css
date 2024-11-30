@@ -270,10 +270,6 @@ address ul {
     justify-content: center;
 }
 
-.team-lst ul {
-    gap: 24px;
-}
-
 .team-member {
     flex: 1 1 calc(25% - 24px);
     text-align: center;
@@ -283,7 +279,6 @@ address ul {
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
     overflow: hidden;
-    border-radius: 0px 0px 4px 4px;
 }
 
 .team-member img {
@@ -408,6 +403,11 @@ address ul {
     transform: translateY(0%);
 }
 
+.portfolio-item .portfolio-description {
+    color: #f4f4fd;
+    background-color: #4d5ae5;
+}
+
 .portfolio-item h3 {
     font-size: 18px;
     color: #2e2f42;
@@ -424,7 +424,7 @@ address ul {
 
 footer {
     background-color: #2e2f42;
-    color: #F4F4FD;
+    color: #f4f4fd;
     padding: 100px 0;
     text-align: left;
 }
@@ -435,33 +435,25 @@ footer {
     align-items: baseline;
 }
 
-.footer-content {
-    margin-right: 120px;
-}
-
-.footer-content .logo {
+.footer-f .logo {
     display: inline-block;
     margin-bottom: 16px;
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #4D5AE5;
 }
 
-.footer-content .studio-second {
+.footer-f .studio-second {
     color: #ffffff;
 }
 
-.footer-part {
-    margin-top: 10px;
+.footer-f .footer-part {
+    margin-bottom: 16px;
     color: #ffffff;
     max-width: 264px;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    margin-bottom: 16px;
 }
 
 .social-media {
@@ -475,11 +467,11 @@ footer {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-bottom: 16px;
 }
 
-.social-list {
+.social-media-list {
     display: flex;
     gap: 16px;
 }
@@ -505,6 +497,6 @@ footer {
     background-color: #31d0aa;
 }
 
-.social-icon {
+.social-link svg {
     fill: #f4f4fd;
 }
