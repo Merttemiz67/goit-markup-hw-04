@@ -602,5 +602,5 @@ footer div .footer-part {
 }
 
 footer div p {
-    margin-bottom: 16px;
+    margin-bottom: 16px; !important
 }
