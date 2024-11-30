@@ -146,16 +146,15 @@ address ul {
 }
 
 .hero-section {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(./images/people-office.jpeg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: #2e2f42;
     color: white;
     padding: 188px 0;
     text-align: left;
+    margin: auto;
 }
 
 .hero-title {
@@ -164,6 +163,7 @@ address ul {
     max-width: 496px;
     text-align: center;
     padding-bottom: 48px;
+    margin: auto;
 }
 
 .hero-button {
@@ -210,12 +210,33 @@ address ul {
 
 .features-section .container ul li {
     flex: 1;
-    text-align: left;
+    text-align: center;
     border-radius: 0px 0px 4px 4px;
+    padding: 16px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.feature-t ul li {
-    width: calc((100% - 72px) / 4);
+.features-section .container ul li:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+}
+
+.icon-container svg {
+    width: 64px;
+    height: 64px;
 }
 
 .feature-t h3 {
@@ -227,6 +248,7 @@ address ul {
 .feature-t p {
     font-size: 16px;
     color: #434455;
+    margin: 0;
 }
 
 .team-section {
