@@ -263,6 +263,10 @@ address ul {
     color: #2e2f42;
 }
 
+.team-section div ul {
+    gap: 24px;
+}
+
 .team-lst {
     display: flex;
     gap: 24px;
@@ -279,6 +283,7 @@ address ul {
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
     overflow: hidden;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-member img {
@@ -327,11 +332,11 @@ address ul {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover {
+.team-section .container ul li a:hover {
     background-color: #404bbf;
 }
 
-.social-link:focus {
+.team-section .container ul li a:focus {
     background-color: #404bbf;
 }
 
