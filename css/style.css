@@ -546,7 +546,7 @@ footer p {
     color: #ffffff;
 }
 
-.footer-part {
+footer div .footer-part {
     margin-bottom: 16px;
     margin-top: 10px;
     color: #ffffff;
