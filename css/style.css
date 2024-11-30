@@ -516,7 +516,6 @@ footer {
 footer p {
     background-color: #2e2f42;
     color: #F4F4FD;
-    padding: 100px 0;
     text-align: left;
     margin-bottom: 16px;
 }
@@ -602,5 +601,5 @@ footer div .footer-part {
 }
 
 footer div p {
-    margin-bottom: 16px; !important
+    margin-bottom: 16px; 
 }
