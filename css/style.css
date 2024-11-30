@@ -256,59 +256,84 @@ address ul {
     padding: 120px 0;
 }
 
-.team-section div h2 {
+.team-section .team-hsecond {
+    text-align: center;
     margin-bottom: 72px;
+    font-size: 32px;
+    color: #2e2f42;
 }
 
-.team-section div ul {
+.team-lst {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.team-section .container ul li div {
-    padding: 32px 0;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    margin-bottom: 8px;
-}
-
-.team-section .container ul li div h3 {
+.team-member {
+    flex: 1 1 calc(25% - 24px);
     text-align: center;
-    margin-bottom: 8px;
-}
-
-.team-section .container ul li div p {
-    text-align: center;
-}
-
-.team-section .container ul li {
-    flex: 1 1 calc(33.333% - 20px);
-    text-align: center;
-}
-
-.team-lst .team-member:first-child {
-    border-radius: 0px 0px 4px 4px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+    overflow: hidden;
 }
 
 .team-member img {
-    display: block;
     width: 100%;
-    margin-bottom: 10px;
+    height: auto;
+    display: block;
+    margin-bottom: 16px;
 }
 
-.team-member h3 {
+.webstudio-person {
+    padding: 32px 0;
+    border-top: 1px solid #e7e9fc;
+}
+
+.h-person {
     font-size: 18px;
     color: #2e2f42;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
-.team-member p {
+.p-person {
     font-size: 16px;
     color: #434455;
+}
+
+.social-media-list {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.social-item {
+    width: 40px;
+    height: 40px;
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link:hover,
+.social-link:focus {
+    background-color: #404bbf;
+}
+
+.social-icon {
+    fill: #f4f4fd;
 }
 
 .portfolio-section {
